@@ -1,0 +1,10 @@
+{
+    "name": "arvr-root",
+    "private": true,
+    "scripts": {
+      "dev": "concurrently \"npm --prefix ARHACK run server\" \"npm --prefix ARHACK run dev\" \"npm --prefix \\\"./AR Frontend/ar-care-assist\\\" run dev\""
+    },
+    "devDependencies": {
+      "concurrently": "^9.0.0"
+    }
+  }
